@@ -5,10 +5,10 @@ import Link from "next/link";
 import { Stack, Typography } from "@mui/material";
 import Button from "@mui/material/Button";
 import Image from "next/image";
-import { Box } from "@mui/system";
+
 
 const ExerciseCard = ({ exercise }) => {
-  console.log({exercise}, exercise)
+
   return (
     <Link className="exercise-card"  href={`/exercise/${exercise.id}`}>
 

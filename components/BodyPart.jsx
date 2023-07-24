@@ -1,9 +1,11 @@
+
+
 import React from "react";
-import { Stack, TextField, Typography } from "@mui/material";
+import { Stack, Typography } from "@mui/material";
 import Icon from "@public/assets/icons/gym.png";
 import Image from "next/image";
 
-const BodyPart = ({ item, setBodyPart, bodyPart }) => {
+const BodyPart = ({ item, setBodyPart, bodyPart}) => {
   return (
     <Stack
       type="button"
