@@ -7,6 +7,8 @@ import Exercises from "@components/Exercises";
 import HeroBanner from "@components/HeroBanner";
 import SearchExercise from "@components/SearchExercises";
 
+<meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+
 const Home = () => {
   const [bodyPart, setBodyPart] = useState("all");
   const [exercises, setExercises] = useState([]);
