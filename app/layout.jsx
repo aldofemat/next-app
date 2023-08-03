@@ -3,8 +3,6 @@
 import "@styles/globals.css";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import { Metadata } from 'next'
-
 
 
 export const metadata = {
@@ -17,6 +15,7 @@ const RootLayout = ({ children }) => {
     <html lang="es">
       
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        
         <body>
           <div className="w-400 mx-auto xl:w-1488">
             <Navbar />

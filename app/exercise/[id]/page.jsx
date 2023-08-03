@@ -56,6 +56,9 @@ const ExerciseDetail = () => {
 
   return (
     <Box sx={{ mt: { lg: "96px", xs: "60px" } }}>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
       <Detail exerciseDetail={exerciseDetail} />
      {/*  <ExerciseVideos
         exerciseVideos={exerciseVideos}
