@@ -7,6 +7,8 @@ import ExerciseDetail from "./exercise/[id]/page";
 import Home from "./page";
 import { Box } from "@mui/material";
 
+<meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+
 export const metadata = {
   title: "Aldo Femat Fitness App",
   description: "Discover & Share AI Prompts",
