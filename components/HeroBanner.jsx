@@ -3,7 +3,7 @@
 import Button from "@mui/material/Button";
 import { Box,Typography } from "@mui/material";
 import Image from "next/image";
-import HeroBannerImage from "@public/assets/images/banner.png";
+import HeroBannerImage from "@public/assets/images/AldoFematDominada.jpg";
 
 function HeroBanner() {
   return (
@@ -15,8 +15,10 @@ function HeroBanner() {
       position="relative"
       p="20px"
     >
-      <Typography color="#FF2625" fontWeight="600" fontSize="26px">
-        Fitness Club
+      <Typography color="#21618C" fontWeight="600" fontSize="35px">
+       Club Fitness <span style={{ color: "#000000", textTransform: "capitalize" }}>
+          Web App
+        </span>
       </Typography>
       <Typography
         fontWeight={700}
@@ -24,26 +26,26 @@ function HeroBanner() {
         mb="23px"
         mt="30px"
       >
-        Sweat, Smile <br /> and Repeat
+        Suda, Soríe <br /> y Repite
       </Typography>
       <Typography fontSize="22px" lineHeight="35px" mb={4}>
-        Check out the most effective exercises
+      ¡Echa un vistazo a los ejercicios más efectivos!
       </Typography>
       <Button
         variant="contained"
-        color="error"
+        color="info"
         href="#exercises"
-        sx={{ backgroundColor: "#ff2625", padding: "10px" }}
+        sx={{ backgroundColor: "#21618C", padding: "10px" }}
       >
-        Explore Exercises
+        Explorar Ejercicios
       </Button>
       <Typography
         fontWeight={600}
-        color="#ff2625"
+        color="#21618C"
         sx={{ opacity: 0.1, display: { lg: "block", xs: "none" } }}
-        fontSize="200px"
+        fontSize="60px"
       >
-        Exercise
+        La persistencia vence a la resistencia, nunca te  rindas!
       </Typography>
       <Image src={HeroBannerImage} alt="banner" className="hero-banner-img" />
     </Box>

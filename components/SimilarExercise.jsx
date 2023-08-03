@@ -15,11 +15,12 @@ const SimilarExercise = ({ targetMuscleExercises, equipmentExercises }) => {
         color="#000"
         mb="33px"
       >
-        Similar{" "}
+        Ejercicios{" "}
+        Similares Para {" "}
         <span style={{ color: "#FF2625", textTransform: "capitalize" }}>
-          Target Muscle
+        Los Musculos Objetivo
         </span>{" "}
-        exercises
+      
       </Typography>
       <Stack direction="row" sx={{ p: 2, position: "relative" }}>
         {targetMuscleExercises.length !== 0 ? (
@@ -38,11 +39,11 @@ const SimilarExercise = ({ targetMuscleExercises, equipmentExercises }) => {
         color="#000"
         mb="33px"
       >
-        Similar{" "}
+        Ejercicios{" "}
         <span style={{ color: "#FF2625", textTransform: "capitalize" }}>
-          Equipment
+          Con Equipo
         </span>{" "}
-        exercises
+       Similar
       </Typography>
       <Stack direction="row" sx={{ p: 2, position: "relative" }}>
         {equipmentExercises.length !== 0 ? (

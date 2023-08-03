@@ -48,7 +48,7 @@ const SearchExercise = ({setExercises, bodyPart, setBodyPart, isBodyParts}) => {
         mb="50x"
         textAlign="center"
       >
-        Awesome Exercises You <br /> Should Know
+        Ejercicios Impresionantes <br /> Que Debes Conocer
       </Typography>
       <Box position="relative" mb="72px">
         <TextField
@@ -61,15 +61,15 @@ const SearchExercise = ({setExercises, bodyPart, setBodyPart, isBodyParts}) => {
           height="76px"
           value={search}
           onChange={(e) => setSearch(e.target.value.toLowerCase())}
-          placeholder="Search Exercises"
+          placeholder="Buscar Ejercicios"
           type="text"
         />
         <Button
           variant="contained"
-        
-          className="search-btn"
+          color="info"
+          /* className="search-btn" */
           sx={{
-            bgcolor: "#FF2625",
+            bgcolor: "#21618C",
             color: "#fff",
             textTransform: "none",
             width: { lg: "175px", xs: "80px" },
@@ -80,7 +80,7 @@ const SearchExercise = ({setExercises, bodyPart, setBodyPart, isBodyParts}) => {
           }}
           onClick={handleSearch}
         >
-          Search
+          Buscar
         </Button>
       </Box>
       <Box sx={{position: 'relative', width:'100%', p:'20px'}}>

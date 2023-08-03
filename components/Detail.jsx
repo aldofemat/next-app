@@ -32,16 +32,15 @@ const Detail = ({ exerciseDetail }) => {
       <Stack sx={{ gap: { lg: "35px", xs: "20px" } }}>
         <Typography variant="h3">{name} </Typography>
         <Typography variant="h6">
-          Exercises keep you strong.{" "}
-          <span style={{ textTransform: "capitalize" }}>{name}</span> bup is one
-          of the best <br /> exercises to target your {target}. It will help you
-          improve your <br /> mood and gain energy.
+        Ejercitarte regularmente te mantiene fuerte.{" "}
+          <span style={{ textTransform: "capitalize" }}> y el ejercicio {name}</span>  es uno de los mejores ejercicios para trabajar tus {target}. <br /> Entrenar de 3 a 4 días por semana te ayudará
+          a mejorar tu  estado de ánimo y ganar energía.
         </Typography>
         {extraDetail?.map((item) => (
           <Stack key={item.name} direction="row" gap="24px" alignItems="center">
             <Button
               sx={{
-                background: "#FFF2DB",
+                background: "#21618C",
                 borderRadius: "50%",
                 width: "100px",
                 height: "100px",

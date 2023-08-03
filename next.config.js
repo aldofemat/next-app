@@ -4,6 +4,7 @@ const nextConfig={
 }
 module.exports = {
     images: {
+      domains: ['api.exercisedb.io'],
       remotePatterns: [
         {
           protocol: 'https',
