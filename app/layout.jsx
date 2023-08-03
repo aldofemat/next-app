@@ -3,11 +3,9 @@
 import "@styles/globals.css";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import ExerciseDetail from "./exercise/[id]/page";
-import Home from "./page";
-import { Box } from "@mui/material";
+import Head from "next/head";
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>;
 
 export const metadata = {
   title: "Aldo Femat Fitness App",
@@ -17,13 +15,16 @@ export const metadata = {
 const RootLayout = ({ children }) => {
   return (
     <html lang="es">
-      <body>
-        <div className="w-400 mx-auto xl:w-1488">
-          <Navbar />
-          {children}
-          <Footer />
-        </div>
-      </body>
+      <Head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <body>
+          <div className="w-400 mx-auto xl:w-1488">
+            <Navbar />
+            {children}
+            <Footer />
+          </div>
+        </body>
+      </Head>
     </html>
   );
 };

@@ -5,7 +5,6 @@ import { Box, Stack, Typography } from '@mui/material';
 /* import Logo from "@public//assets/icons/AldoFematLogo.svg";
 import Image from "next/image";
  */
-<meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
 
 const Footer = () => (
   <Box mt="80px" bgcolor="#000000">
