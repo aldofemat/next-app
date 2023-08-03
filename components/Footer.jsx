@@ -8,6 +8,9 @@ import Image from "next/image";
 
 const Footer = () => (
   <Box mt="80px" bgcolor="#000000">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <Stack gap="40px" sx={{ alignItems: 'center' }} flexWrap="wrap" px="20px" pt="24px">
      {/*  <Image src={Logo} alt="logo" color='#000000' style={{ width: '500px', height: '41px' }} /> */}
     </Stack>
