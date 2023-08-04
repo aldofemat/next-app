@@ -16,8 +16,8 @@ const ExerciseCard = ({ exercise }) => {
       <Image 
         src={exercise.gifUrl}
         alt={exercise.name}
-        width="360"
-        height="360"
+         width="280"
+        height="280" 
         loading="lazy"
       />
       <Stack direction= "row" >
@@ -44,7 +44,7 @@ const ExerciseCard = ({ exercise }) => {
           {exercise.target}
         </Button>
       </Stack>
-      <Typography  ml="21px" color="#000" fontWeight="bold" mt="11px" pb="11px" textTransform= "capitalize" fontSize="22px"> {exercise.name} </Typography>
+      <Typography  ml="21px" color="#000" fontWeight="bold" mt="11px" pb="11px" textTransform= "capitalize" sx={{ fontSize: { lg: '24px', xs: '20px' } }}> {exercise.name} </Typography>
     </Link>
   );
 };

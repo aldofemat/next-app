@@ -13,17 +13,17 @@ export const metadata = {
 const RootLayout = ({ children }) => {
   return (
     <html lang="es">
-      
+      <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        
+
         <body>
-          <div className="w-400 mx-auto xl:w-1488">
+          <div width="400px" sx={{ width: { xl: '1488px' } }} m="auto">
             <Navbar />
             {children}
             <Footer />
           </div>
         </body>
-      
+        </head>
     </html>
   );
 };

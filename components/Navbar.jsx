@@ -7,7 +7,9 @@ import Image from 'next/image';
 import Logo from "@public/assets/icons/AldoFematLogoTransparente.png";
 
 const Navbar = () => (
-  <Stack direction="row" justifyContent="space-around"  sx={{ gap: { sm: '122px', xs: '40px' }, mt: { sm: '32px', xs: '20px' }, justifyContent: 'none'}} px="20px">
+  <Stack direction="row" justifyContent="space-around"  sx={{ gap: { sm: '122px', xs: '40px' }, mt: { sm: '32px', xs: '20px' }, justifyContent: 'none'}} px="0px">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <Link href='/' className='flex gap-2 flex-center'>
 
